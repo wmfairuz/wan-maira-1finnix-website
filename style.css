@@ -1,0 +1,89 @@
+/* Whole page */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #444444;
+}
+
+/* FRAME: pink border around the whole website */
+.frame {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff7fa;
+    border: 8px solid #c2185b;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+/* BANNER: the big title at the top */
+.banner {
+    background-color: #ff8fb8;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.banner p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* MENU: the row of links under the banner */
+.menu {
+    background-color: #e0457b;
+    text-align: center;
+    padding: 12px;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 15px;
+}
+
+/* Menu link changes colour when the mouse is on it */
+.menu a:hover {
+    background-color: #ff8fb8;
+}
+
+/* Main area in the middle of the page */
+main {
+    padding: 25px;
+}
+
+/* White boxes for each section */
+.card {
+    background-color: white;
+    border: 3px solid #ffc2d9;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #e0457b;
+    margin-top: 0;
+}
+
+.card p,
+.card li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Bottom of the page */
+footer {
+    background-color: #ffc2d9;
+    text-align: center;
+    padding: 15px;
+}
